@@ -5,5 +5,3 @@
 layout: home
 
 ---
-
-This is some text
