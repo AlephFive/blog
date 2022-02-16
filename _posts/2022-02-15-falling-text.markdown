@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Falling Text"
-date:   2022-02-15 22:39:14 -0500
+date:   2022-02-15 10:39:14 -0500
 categories: art
 ---
 
