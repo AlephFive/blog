@@ -5,16 +5,16 @@ date:   2022-05-04 01:00:14 -0500
 categories: art
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5N8ggmoUmLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lEHkfBf7j3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For the final project for my class "Creative Embedded Systems", I decided to take advantage of my experience and passion in drumming to put it to use.
 
 I wanted to create a device which allows you to easily create a drum beat. There are countless musical techniques and rhythms, but including all of them in my project would be impossible. Hence I decided to simplify things in two aspects: Instrumentation and Rhythm. For instrumentation, I limited the output to Hi-Hat, Snare Drum, and Bass Drum. These three instruments are the most crucial aspects of a drum set, and is also the most commonly used, and hence most drum patterns could be covered by this choice. In terms of Rhythm, I decided to stick to straight 4/4 time and divide the bar into eight 8th notes. This way, most common non-jazz rhythms are covered, and is also much simpler to understand as opposed to other time signatures or swing beats.
 
 
-![plane](https://miro.medium.com/max/700/1*UWeiESU62Dr3_E9IWOIZ4Q.jpeg)
+![enclosure](https://user-images.githubusercontent.com/6265129/167313837-29a1b026-08f5-4eb1-a2d3-95b1cea4d4db.jpg)
 
-![Plane_open](https://miro.medium.com/max/700/1*4DswH9LDBM2T4CO9fM4QPw.jpeg)
+![5](https://user-images.githubusercontent.com/6265129/167313745-7e2e44c1-e441-4909-a416-9cf37426d177.jpg)
 
 ### Implementation
 The system was divided into two parts, an ESP32 part which handles user input and drum beat programming, and a web-app part which takes serial input from the ESP32 and plays audio. I decided to do this since the ESP32 is unable to play audio. This need made me decide to use a wired connection to a computer. Additionally, since this system requires a wired connection, there would be no need for a battery as the power can be supplied from the wired connection.
